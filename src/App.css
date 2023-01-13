@@ -1,0 +1,59 @@
+.App {
+  width: 400px;
+  padding: 20px;
+  margin: 20px auto;
+  border: 1px solid #c5c5c5;
+}
+
+.header {
+  text-align: right;
+  padding: 10px;
+  background-color: rgb(206, 206, 206);
+}
+
+main {
+  padding: 20px 0;
+}
+
+.card {
+  margin: 0 auto;
+  width: 300px;
+  padding: 10px 20px;
+  border: 1px solid #818181;
+  margin-bottom: 20px;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: right;
+}
+
+button {
+  padding: 10px 20px;
+  color: aliceblue;
+  background-color: #656fa8;
+  border: 1px solid #656fa8;
+}
+
+button.edit {
+  background-color: #4b527e;
+  border: 1px solid #4b527e;
+}
+
+button.delete {
+  background-color: #572424;
+  border: 1px solid #572424;
+}
+
+.card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+textarea {
+  margin: 20px 0;
+  width: 300px;
+}
